@@ -1,0 +1,15 @@
+x64\debug\kernel.cu.obj
+j:\cudacode\integral\x64\debug\integral.lib
+j:\cudacode\integral\x64\debug\integral.exp
+j:\cudacode\integral\x64\debug\integral.ilk
+j:\cudacode\integral\x64\debug\integral.exe
+j:\cudacode\integral\x64\debug\integral.pdb
+j:\cudacode\integral\integral\x64\debug\kernel.cu.cache
+j:\cudacode\integral\integral\x64\debug\kernel.cu.obj
+j:\cudacode\integral\integral\x64\debug\vc141.pdb
+j:\cudacode\integral\integral\x64\debug\integral.tlog\cudacompile.read.1u.tlog
+j:\cudacode\integral\integral\x64\debug\integral.tlog\cudacompile.write.1u.tlog
+j:\cudacode\integral\integral\x64\debug\integral.tlog\integral.write.1u.tlog
+j:\cudacode\integral\integral\x64\debug\integral.tlog\link.command.1.tlog
+j:\cudacode\integral\integral\x64\debug\integral.tlog\link.read.1.tlog
+j:\cudacode\integral\integral\x64\debug\integral.tlog\link.write.1.tlog
