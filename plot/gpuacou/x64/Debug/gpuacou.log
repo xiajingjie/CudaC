@@ -1,0 +1,42 @@
+﻿  Compiling CUDA source file plot.cpp...
+  
+  J:\CudaCode\gpuacou\gpuacou>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "J:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"J:\Program Files\Polyspace\R2019b\extern\include" -I"J:\Program Files\Polyspace\R2019b\extern\include\win64" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\plot.cpp.obj "J:\CudaCode\gpuacou\gpuacou\plot.cpp" 
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9348): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+J:/CudaCode/gpuacou/gpuacou/plot.cpp(75): error : identifier "MATFile" is undefined
+  
+J:/CudaCode/gpuacou/gpuacou/plot.cpp(75): error : identifier "pmatFile2" is undefined
+  
+J:/CudaCode/gpuacou/gpuacou/plot.cpp(75): error : identifier "matOpen" is undefined
+  
+J:/CudaCode/gpuacou/gpuacou/plot.cpp(85): error : identifier "matPutVariable" is undefined
+  
+J:/CudaCode/gpuacou/gpuacou/plot.cpp(90): error : identifier "matClose" is undefined
+  
+J:/CudaCode/gpuacou/gpuacou/plot.cpp(99): error : identifier "pmatFile" is undefined
+  
+J:/CudaCode/gpuacou/gpuacou/plot.cpp(109): error : identifier "matGetVariable" is undefined
+  
+  7 errors detected in the compilation of "C:/Users/HSIA/AppData/Local/Temp/tmpxft_00003958_00000000-7_plot.cpp1.ii".
+  plot.cpp
+J:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\BuildCustomizations\CUDA 10.2.targets(764,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "J:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"J:\Program Files\Polyspace\R2019b\extern\include" -I"J:\Program Files\Polyspace\R2019b\extern\include\win64" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\plot.cpp.obj "J:\CudaCode\gpuacou\gpuacou\plot.cpp"”已退出，返回代码为 1。

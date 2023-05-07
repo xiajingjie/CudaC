@@ -1,0 +1,54 @@
+﻿#include <mat.h> 
+#include "mat.h"
+#include "matrix.h"
+
+int main()
+{
+	MATFile *pmatFile = matOpen("J:\\CudaCode\\read_mat_plot\\read_mat_plot\\initUrban1.mat", "r");
+	
+	if (pmatFile == 0)
+	{
+		printf("Open .mat Failed!");
+	}
+	else
+		printf("success read .mat");
+
+	mxArray* pMxArray = matGetVariable(pmatFile, "initA");
+	mxDouble*initA;
+	initA = mxGetDoubles(pMxArray);
+
+	int M = mxGetM(pMxArray);
+	int N = mxGetN(pMxArray);
+	printf("行和列：%d,%d\n", M, N);
+	double A[2][3] = { 0.0 };
+	for (int i = 0; i < M; i++)
+	{
+		for (int j = 0; j < N; j++)
+		{
+			A[i][j] = initA[M*j + i];
+			printf("%f  ", A[i][j]);
+		}
+		printf("\n");
+	}
+	matClose(pmatFile);
+	mxFree(initA);
+	printf("\n");
+
+	double B[2][3] = { 1,2.1,3.4,2.5,6.66,7.3 };
+	// 生成.mat文件    
+	double *outA = new double[M*N];
+	for (int i = 0; i < M; i++)
+	{
+		for (int j = 0; j < N; j++)
+		{
+			outA[M*j + i] = B[i][j];
+			printf("%f  ", B[i][j]);
+		}
+		printf("\n");
+	}
+	pmatFile = matOpen("A1.mat", "w");
+	mxSetData(pMxArray, outA);
+	matPutVariable(pmatFile, "A1", pMxArray);
+	matClose(pmatFile);
+	return 0;
+}
